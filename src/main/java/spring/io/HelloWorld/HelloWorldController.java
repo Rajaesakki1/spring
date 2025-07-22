@@ -9,4 +9,8 @@ public class HelloWorldController {
     public String HelloWorld(){
         return "Hello World";
     }
+    @GetMapping("/helo2")
+    String getindentity(){
+        return "page2";
+    }
 }
